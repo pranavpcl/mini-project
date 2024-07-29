@@ -75,13 +75,15 @@ body {
     color: white;
     cursor: pointer;
     font-size: medium;
+    transition: all ease .2s;
 }
 
 .row1 button{
     color: aqua;
 }
 
-.row button:hover {
+.row button:active{
+    scale: 0.9;
     box-shadow:inset 1px 5px 20px rgba(0, 0, 0, 10),-1px -5px 20px rgba(0, 0, 0, 10);
     font-size: smaller;
     color: rgba(255, 255, 255, 0.671);
